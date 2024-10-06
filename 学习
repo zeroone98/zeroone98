@@ -1,0 +1,28 @@
+合约
+
+------------------------------------------------------------------------------------ 安全
+    https://consensys.github.io/smart-contract-best-practices/
+
+
+
+
+------------------------------------------------------------------------------------ 工具
+https://github.com/Consensys/ethereum-developer-tools-list
+字节码反编译: https://github.com/Consensys/mythril
+
+
+------------------------------------------------------------------------------------ 底层
+语言:
+    move:
+        https://decert.me/tutorial/sui-move-intro-course-zh/
+------------------------------------------------------------------------------------ 底层
+零知识
+    https://github.com/matter-labs/awesome-zero-knowledge-proofs
+以太坊
+    https://learnblockchain.cn/books/geth/part1/config.html
+------------------------------------------------------------------------------------ solidity
+https://decert.me/tutorial/solidity/intro
+https://soliditylang.org/
+https://docs.soliditylang.org/en/v0.8.27/
+https://github.com/chaseSpace/learn_blockchain
+https://professional-solidity.readthedocs.io/zh-cn/latest/

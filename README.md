@@ -11,60 +11,55 @@ zeroone98/zeroone98 is a ✨ special ✨ repository because its `README.md` (thi
 You can click the Preview link to take a look at your changes.
 --->
 
+# 介绍
 
+精通数据库(mysql,postgresql),系统(linux,k8s),软件运维/前端(vue/react)/后端(java,python,nodejs,golang)/合约(solidity)(在深圳大型公司工作7年), 现在是数字游民
 
-# dapp能力
+# 技能
 
-用户提出需求, 基于链上交易实现的app的想法
+## 服务器
 
-我会做以下事情:
+精通debian-12, centos, ubuntu
 
-反复整理确认需求, 方向、目标、初始值、转折点、核心业务、核心计算区、商业模式融合, 编写用户操作文档, 同时推测用户可能出现的其他操作
+精通部署和使用k8s/k3s, cni: cillium, csi: ebs/ceph, coredns改造, localdns
 
-链选型, 钱包测试, 关键功能测试
+## 中间件
 
-编写测试用例, 假设测试缩放系数, 例如: 时间、金额、层级关系, 单用户操作流程, 多用户测试流量, 编写自动化测试脚本全自动模拟全用户全流程动作
+精通postgresql/mysql
 
-编写计算公式计算可能的结果数字, 从而推断时间
+redis
 
+mq: rocketmq/rabbitmq/kafka
 
+mongodb
 
+## 后端
 
+golang(gin)
 
-# 金融交易系统设计与实现
+nodejs(expressjs/nestjs)
 
-poc场景为基于区块链的app
+python(fastapi/flask)
 
-在数据存储上
+java(springmvc+mybatis)
 
-使用分布式数据库，而不是单机数据库，因为服务器可能会宕机甚至丢失数据, 业务系统的一次写入得同时落盘到多台服务器上
+## 前端
 
-​	涉及到金额的字段使用超长整数类型, 例如区块链的金额为18位, 以postgresql为例子, 使用numeric(30, 0), 程序中使用bigDecimal进行计算(加减乘除)
+js, typescript, nodejs, vue, react
 
-在与外部系统交互的地方
+## 维护服务
 
- 
+防火墙: ufw
 
-使用就近数据库进行落库, 尽量不要修改数据, 保留数据的连贯性
+lvm加密
 
-记录每一次钱发生变化的地方到数据库和日志文件中
+ssh最高安全性
 
-在测试阶段使用缩放系统对关键分支控制变量数字进行缩小, 例如使用金额缩放系数100对100金额缩小成1, 使用时间缩放系数1440对24h缩小成1m
+部署和使用jumpserver/k8s管理平台(kuboard), openvpn
 
-确保无限定时循环的线程没有异常导致线程中断退出, 如果无法确保则需要在主线程中定时检查恢复子线程
+精通cicd, 构建镜像, 编写后端服务编排文件
 
-编写测试用例
+## 合约
 
-​	测试分布式数据库1主n从的数据库切换能力
-
-​	测试程序自动恢复能力, 测试程序的监控检查能力
-
-​	使用json文件数据, 实现代码的单元测试
-
-​	直接连接数据
-
-​	循环创建用户, 创建足量的用户覆盖层级
-
-​	循环创建交易, 创建足量的交易去测试在多次计算过程中可能会引起的问题
-
+精通web3合约交互
 ​	
